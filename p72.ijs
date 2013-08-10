@@ -1,5 +1,5 @@
 NB. this problem is very easy, once you've figured out the trick.
-NB. # ~. , %/ (i.1e6) could also work, but there isn't enough memory in a
+NB. /:~ ~. , %/~ (1+x:i.1e6) could also work, but there isn't enough memory in a
 NB. normal computer.
 
 totient =: (- ~:)&.q:
