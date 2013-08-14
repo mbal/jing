@@ -1,7 +1,6 @@
 NB. this function computes how many smaller rectangle are there in a
 NB. rectangle of sides x and y. (x+1 C 2) * (y+1 C 2)
 f =: 4 : '(2 ! x+1) * (2 ! y+1)'
-NB. create a table of all permutations
 table =: f"0/~ i.200
 
 subtable =: | (2*1e6) - table
