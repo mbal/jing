@@ -47,9 +47,11 @@ def divisors(n):
         r *= 2*n+1
     return r
 
-for n in xrange(10**6, 10**8):
+n = 100
+while True:
     count = (divisors(n)+1)
-    if count > 4*10**6:
+    if count > 2*1000:
         print n, count/2
         break
+    n+=1
 
