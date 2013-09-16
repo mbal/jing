@@ -30,7 +30,7 @@ def get_length(n):
 
 
 c = 0
-for i in xrange(10000):
+for i in xrange(1000000):
     cyclen = get_length(i)
     if cyclen == 60:
         c += 1
