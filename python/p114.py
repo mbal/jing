@@ -12,4 +12,4 @@ def count(length):
     CACHE[length] = c
     return c
 
-print count(5)
+print count(50)
