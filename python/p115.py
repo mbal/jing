@@ -12,6 +12,6 @@ def count(length, n):
     CACHE[(length, n)] = c
     return c
 
-print count(5, 4)
+print count(168, 50)
 
 
